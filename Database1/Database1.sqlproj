@@ -62,6 +62,7 @@
     <Build Include="Student.sql" />
     <Build Include="Table1.sql" />
     <Build Include="Course.sql" />
+    <Build Include="Event.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />

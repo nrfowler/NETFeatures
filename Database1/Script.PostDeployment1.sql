@@ -21,6 +21,18 @@ WHEN NOT MATCHED BY TARGET THEN
 INSERT (Title, Credits) 
 VALUES (Title, Credits);
 
+MERGE INTO Event AS Target 
+USING (VALUES 
+        (1, 'Football Game'), 
+        (2, 'Poetry Reading'), 
+        (3, 'Student Government')
+) 
+AS Source (Id, Name) 
+ON Target.Id = Source.Id 
+WHEN NOT MATCHED BY TARGET THEN 
+INSERT (Name) 
+VALUES (Name);
+
 MERGE INTO Student AS Target
 USING (VALUES 
         (1, 'Tibbetts', 'Donnie', '2013-09-01'), 

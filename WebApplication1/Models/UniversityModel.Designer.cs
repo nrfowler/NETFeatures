@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Nathan\Source\Repos\WebApplication1\WebApplication1\Models\UniversityModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Nathan\source\repos\NETFeatures\WebApplication1\Models\UniversityModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
